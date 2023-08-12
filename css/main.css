@@ -87,10 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* --- Base Header - Footer Styles --- */
-/* .content-wrapper {
+.content-wrapper {
   outline: 3px dotted red;
   width: 90%;
-} */
+}
 
 header {
   display: flex;
@@ -104,9 +104,14 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+header nav {
+  width: 60%;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
+
 }
 
 footer {
@@ -163,10 +168,6 @@ aside {
   display: flex;
   justify-content: center;
 }
-
-
-
-.copyright {}
 
 /* ==== About Page === */
 
