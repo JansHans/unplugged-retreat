@@ -98,6 +98,7 @@ body {
   font-size: 1em;
   text-align: left;
   color: #e2e3ed;
+  background-color: #202322;
 }
 
 ul,
@@ -144,7 +145,6 @@ address {
 }
 
 .content-wrapper {
-  /* outline: 3px dotted red; */
   width: 90%;
   margin: 50px 0;
 }
@@ -212,7 +212,6 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
-  background-color: #2a423a;
 }
 
 footer .social-icons {
@@ -257,7 +256,6 @@ footer .copyright {
   font-size: 2.25em;
   line-height: 1.2;
   font-weight: 500;
-  color: #e2e3ed;
 }
 
 .hero-area img {
@@ -326,7 +324,6 @@ input[type=button] {
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-flow: row wrap;
 }
 
@@ -339,10 +336,6 @@ input[type=button] {
   text-align: center;
   margin: 0;
 }
-
-/* .features .fontawesome-icon {
-  font-size: 60px;
-} */
 
 /* --- Reviews --- */
 
@@ -637,7 +630,6 @@ FAQ Page
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
   }
 
   footer .contact {
@@ -651,6 +643,11 @@ FAQ Page
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
