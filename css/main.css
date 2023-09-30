@@ -285,7 +285,6 @@ input[type=text] {
   color: #2a423a;
   font-style: italic;
   padding: 1em;
-  font-size: 1.5em;
 }
 
 input[type=button] {
@@ -352,7 +351,8 @@ input[type=button] {
 
 .reviews h3 {
   width: 55%;
-  padding: 20px 0;
+  padding-bottom;
+  20px:
 }
 
 /* =======================================================
@@ -589,6 +589,10 @@ FAQ Page
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -598,6 +602,10 @@ FAQ Page
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
